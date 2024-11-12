@@ -45,6 +45,7 @@ A documentação Swagger da API pode ser acessada em http://localhost:5068/doc/s
 Para executar os testes:
 
 ```sh
+cd .. #Retorna para a pasta src
 cd Tests
 dotnet test
 ```
