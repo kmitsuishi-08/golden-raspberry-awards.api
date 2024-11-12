@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9283830-7466-42B4-BE57-F3C7E6786E7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C78E20AD-88B6-432F-9B62-81A5F4B5DAD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BE7E7748-1307-4D9F-BE3E-3C748C218BD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenRaspberryAwards.Api", "Presentation\GoldenRaspberryAwards.Api.csproj", "{ECA420E1-CC0E-406C-9B64-EB0171A9A977}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenRaspberryAwards.Api.IntegrationTests", "Tests\GoldenRaspberryAwards.Api.IntegrationTests.csproj", "{B27C9865-5652-4246-BCC3-69B4F22F9448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA420E1-CC0E-406C-9B64-EB0171A9A977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA420E1-CC0E-406C-9B64-EB0171A9A977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA420E1-CC0E-406C-9B64-EB0171A9A977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA420E1-CC0E-406C-9B64-EB0171A9A977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27C9865-5652-4246-BCC3-69B4F22F9448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27C9865-5652-4246-BCC3-69B4F22F9448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27C9865-5652-4246-BCC3-69B4F22F9448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27C9865-5652-4246-BCC3-69B4F22F9448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C78E20AD-88B6-432F-9B62-81A5F4B5DAD7} = {F9283830-7466-42B4-BE57-F3C7E6786E7C}
+		{BE7E7748-1307-4D9F-BE3E-3C748C218BD5} = {F9283830-7466-42B4-BE57-F3C7E6786E7C}
+		{ECA420E1-CC0E-406C-9B64-EB0171A9A977} = {C78E20AD-88B6-432F-9B62-81A5F4B5DAD7}
+		{B27C9865-5652-4246-BCC3-69B4F22F9448} = {BE7E7748-1307-4D9F-BE3E-3C748C218BD5}
+	EndGlobalSection
+EndGlobal
