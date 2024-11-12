@@ -10,7 +10,7 @@ on:
 
 env:
   DOTNET_VERSION: '8.0.x'
-  SOLUTION_FILE: 'GoldenRaspberryAwards.sln'
+  SOLUTION_FILE: 'src/GoldenRaspberryAwards.sln'
 
 jobs:
   build-and-test:
