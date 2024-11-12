@@ -13,7 +13,7 @@ public class CsvImportService(AppDbContext dbContext, IConfiguration config)
     public void ImportCsvToDatabase()
     {
         var filePath = _config.GetValue<string>("FilePath");
-        var solutionDirectory = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.FullName;
+        var solutionDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
         var csvPath = Path.Combine(solutionDirectory, filePath);
 
         var config = new CsvConfiguration(CultureInfo.InvariantCulture)
